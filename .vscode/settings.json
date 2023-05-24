@@ -1,4 +1,23 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    ".next": true,
+    ".vscode": true,
+    "tsconfig.json": true,
+    "README.md": true,
+    "postcss.config.js": true,
+    "pnpm-lock.yaml": true,
+    "next-env.d.ts": true,
+    ".gitignore": true,
+    ".eslintrc.json": true,
+    "node_modules": true
+  },
+  "explorerExclude.backup": {}
 }
